@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Facebook App</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      
+    <!-----------css-------------->
+      <link href="main.css" rel="stylesheet">
+      
+    <!------------font awesome------------->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+  </head>
+  <body style="height:600px;">
+    
+<!----------------------------------header start------------------------------------------------------------->
+  <header>
+
+          <nav class="navbar navbar-default navbar-fixed-top" id="header">
+                
+          <div class="container-fluid">
+      
+      
+    <!-- Brand and toggle get grouped for better mobile display -->
+      
+      
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+          
+          
+          
+      </button>
+      
+        <a class="navbar-brand" href="#"style="margin-left:7px;font-size:30px;padding-right:0;margin-top:0px;padding-top:12px;"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </div>
+              
+
+ <!------------------------Collect the nav links, forms, and other content for toggling ---------------------->
+      
+      
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     
+       <!---   <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>-->
+    
+    <form class="navbar-form navbar-left" style="margin-bottom:0;">
+        <div class="form-group">
+          <input type="text" style="padding-right:150px;" class="form-control" placeholder="Search Facebook"style="margin-top:20px;">
+        </div>
+        <button type="submit" class="btn btn-default"style="margin-top:0px;padding-left:10px; "><span class="  glyphicon glyphicon-search" aria-hidden="true"></span></button>
+      </form>
+ 
+        
+              
+        
+        
+      <ul class="nav navbar-nav navbar-right">
+            <li><img src="http://i.imgur.com/weQ6ys3t.jpg" style="height:32px;width:32px; margin-top:11px;"></li>
+            <li><a href="#" class="white-text"style="margin-top:0px;">Sunita</a></li>
+           <li><a href="#" class="white-text" style="margin-top:2px;">Home</a></li>
+           <li><a href="#" class="white-text"style="padding-top:9px;"><span class="glyphicon glyphicon-user" aria-hidden="true"><span class="badge" style="margin-bottom:25px;background-color:red;">2</span></span></a></li>
+           <li><a href="#" class="white-text"style="padding-top:9px;"><span class="glyphicon glyphicon-envelope" aria-hidden="true"><span class="badge" style="margin-bottom:25px; margin-top:12;background-color:red;">2</span></span></a></li>
+          <li><a href="#" class="white-text"style="padding-top:9px;"><span class="glyphicon glyphicon-globe" aria-hidden="true"><span class="badge" style="margin-bottom:25px; margin-top:12;background-color:red;">2</span></span></a></li>   
+          <li><a href="#" class="white-text"style="margin-top:5px;padding-top:9px;"><span class=" glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
+          
+          
+          
+         <li class="dropdown">
+             <a href="#" class="dropdown-toggle white-text" data-toggle="dropdown" role="button" aria-hidden="true" aria-expanded="false"> <span  class="caret"></span></a>
+             
+
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+           <li><a href="#">Create</a></li>
+              <li role="separator" class="divider"></li> 
+           <li><a href="#">Create group</a></li>
+            <li><a href="#">New group</a></li>
+            <li role="separator" class="divider"></li>
+           <li><a href="#">News Feed preference</a></li>
+               <li><a href="#">Setting</a></li>
+               <li><a href="#">Log out</a></li>
+         </ul>    
+          
+          
+          </li>
+          
+         
+           </ul>
+           
+     </div>
+  <!-- /.navbar-collapse -->
+     </div>
+ <!-- /.container-fluid -->
+
+     </nav>
+      
+        
+ </header>
+ <!---------------------------------------header ends-------------------------------------------------------------------->
+        <div class="container-fluid">
+          <div class="row" style="margin-top:70px;">
+            <div class="col-md-3" style="">
+               <div id="menu">
+                  <ul class="nav nav-pills nav-stacked">
+                      
+         <li><a><img src="http://i.imgur.com/weQ6ys3t.jpg" style="height:25px;width:25px;margin:0px;"> sunita</a> </li>
+                     
+        <li role="presentation"><a href="#"><img src="http://i.imgur.com/xJoQSxSt.png"style="height:25px;width:25px;margin:0px;"> News Feed</a></li>
+                          
+       <li role="presentation"><a href="#"><img src="http://i.imgur.com/rlro2ent.png"style="height:25px;width:25px;margin:0px;"> Messenger <span class="badge" style="margin-left:70px;">42</span></a></li>
+             </ul> 
+            
+         <ul class="nav nav-pills nav-stacked">
+             
+            <p class="list-heading"><strong> Shortcuts</strong></p>
+            <li role="presentation"><a href="#"><img src="http://i.imgur.com/fyBO54gt.png"style="height:25px;width:25px;margin:0px;"> AcadView</a></li>
+            <li role="presentation"><a href="#"><img src="http://i.imgur.com/7Trl3Lft.png"style="height:25px;width:25px;margin:0px;"> HTML, CSS Group</a></li>
+             <li role="presentation"><a href="#"><img src="http://i.imgur.com/MSLg5GGt.png"style="height:25px;width:25px;margin:0px;"> Bootstrap Fundas</a></li>
+         </ul> 
+         
+         <ul class="nav nav-pills nav-stacked">
+             
+            <p class="list-heading"><strong> Explore</strong></p>
+            <li role="presentation"><a href="#"><img src="http://i.imgur.com/AoVD7dKt.png"style="height:25px;width:25px;margin:0px;"> Group<span class="badge"  style="margin-left:80px;">2</span></a></li>          
+            <li role="presentation"><a href="#"><img src="http://i.imgur.com/kBBZwX7t.png"style="height:25px;width:25px;margin:0px;"> Events<span class="badge"style="margin-left:80px;">2</span></a></li>
+            <li role="presentation"><a href="#"><img src="http://i.imgur.com/jeWApzs.png"style="height:25px;width:25px;margin:0px;"> Friend lists</a></li>
+            <li role="presentation"><a href="#"><img src="http://i.imgur.com/19onf7Kt.png"style="height:25px;width:25px;margin:0px;"> Pokes<span class="badge"style="margin-left:80px;">2</span></a></li>
+            <li role="presentation"><a href="#"><img src="http://i.imgur.com/MIyNRE1t.png"style="height:25px;width:25px;margin:0px;">Games</a></li>
+            <li role="presentation"><a href="#"><img src="http://i.imgur.com/V9NiVWGt.png"style="height:25px;width:25px;margin:0px;"> Weather</a></li>
+           <li role="presentation"><a href="#"><img src="http://i.imgur.com/XgpBhkQt.png"style="height:25px;width:25px;margin:0px;"> Photos</a></li>
+           <li role="presentation"><a href="#"><img src="http://i.imgur.com/mBAUkNBt.jpg"style="height:25px;width:25px;margin:0px;"> Pages feed<span class="badge"style="margin-left:50px;">2</span></a></li>
+         </ul>
+            
+        </div>
+        </div>
+      
+      
+      
+        <div class="col-md-5">
+        <div id="main">
+            
+       <!-------------------------------------------Create a Post (what's on your mind)------------------------------------------------------->  
+            
+                           
+        <div class="panel panel-default">
+       <div class="panel-heading" style="padding:0;">
+      <div>
+          <h3 class="panel-title">
+           <ul class="nav nav-tabs" style="padding-right:30px;">
+            <li role="presentation" ><a href="#"><span class="glyphicon glyphicon-pencil" style="padding-left:10px;" aria-hidden="true">Create post</a></li> 
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-picture"style="margin-right:5px;" aria-hidden="true">Photo/vedio album</a></li>
+          <li role="presentation"><a href="#"><span class="glyphicon glyphicon-facetime-video"style="margin-right:5px;" aria-hidden="true">Live vedio</a></li>
+      </ul>
+          </h3>
+       </div>
+            
+            </div>   
+       <div class="panel-body" style="margin-bottom:30px;">
+       <div> <img src="http://i.imgur.com/weQ6ys3t.jpg" style="height:35px;width:35px;margin-right:10px;" alt="..."> What's on your mind?</div>
+        </div>
+           
+           
+       
+
+            
+            
+       <div class="panel-footer"style="background-color:white;">
+          
+            <nav aria-label="...">
+                        <ul class="pager" style="margin:0;">
+                          <li><a href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true">Photo/video</a></li>
+                            <li><a href="#"><i class="fa fa-smile-o" style="text-color:green;" aria-hidden="true"></i> Feeling/Activity</a></li>
+              
+                        </ul>
+            </nav> 
+            
+           </div>
+            
+            
+         
+            
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        <!-----------------first post-------------->
+                 
+        <div class="panel panel-default">
+       <div class="panel-heading">
+      <div>
+          <h3 class="panel-title">
+           
+           <a href="#"><img src="http://i.imgur.com/vRQgCJ8t.jpg" style="height:32px;width:32px;margin-right:10px;" alt="...">Suhani Bansal</a></h3>
+       </div>
+            
+            </div>   
+       <div class="panel-body">
+       <div><h3 class="text-post">Searching for a new laptop online is basically forcing your current computer to dig its own grave. </h3></div>
+        </div>
+           
+           
+        <div class="thumbs-up"> <span class="like"><span class="glyphicon glyphicon-thumbs-up " aria-hidden="true"></span>Like</span>
+        <span class="comm"> <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></span>
+         <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>share</span>    
+       </div>
+
+            
+            
+       <div class="panel-footer">
+           <div class="media">
+             <div class="media-left">
+                 
+              <a href="#"><img class="media-object" src="http://i.imgur.com/WMbCnBu.jpg" style="height:32px;width:32px;"alt="..."></a>
+               </div>
+               
+               
+               <div class="media-body">
+                   
+                   
+                 <p class="comment"> <span><a href="#">Sarthak Batra </a></span> Wow, that's really insightful! </p>
+                   
+                   <div>
+                       <small>
+                       <span> <a href="#">Like </a></span> 
+                       <span> <a href="#">Comment </a></span> 
+                       </small>
+                   </div>
+               </div>
+                    
+     <!--------------------------------------------------------------------------------------------->  
+               <div class="media">
+              <div class="media-left">
+               <a href="#"><img class="media-object" src="http://i.imgur.com/vRQgCJ8t.jpg" style="height:32px;width:32px;"alt="abc"></a>
+               </div>
+               
+                
+               <div class="media-body">
+                   
+                   
+                 <p class="comment"> <span><a href="#">Suhani Bansal </a></span> thankeww</p>
+                   
+                   <div><small>
+                       <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+                       </small>
+                   </div>
+
+                   </div>
+               
+               
+        <!--------------------------------------------------------------------------------------------------->
+               
+               
+                         <div class="media">
+              <div class="media-left">
+                 
+               <a href="#"><img class="media-object" src="http://i.imgur.com/tSvzdaOt.jpg" style="height:35px;width:35px;"alt="..."></a>
+               </div>
+               
+               
+               <div class="media-body">
+                   
+                   
+                 <p class="comment"> <span><a href="#">Amit</a></span>  nice</p>
+                   
+                   <div><small>
+                       <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+                       </small>
+                   </div>
+
+                     </div>  
+                             
+                            <input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;">
+               </div>
+              </div>
+        </div>
+       </div>       
+            </div>
+        
+<!-------------------------second post--------------------------------------------------->
+         
+            
+            
+            
+        <div class="panel panel-default">
+       <div class="panel-heading">
+       <h3 class="panel-title">
+        
+        <a href="#"><img src="http://i.imgur.com/gnbk5kZ.jpg" style="height:32px;width:32px;margin-right:10px;" alt="...">Rajat kumar</a></h3>
+           
+       </div>
+       <div class="panel-body">
+        <div><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer></blockquote></div> 
+           
+           
+        <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+        <span> <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></span>
+            <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>share</span>
+       </div>
+       </div>
+       <div class="panel-footer">
+        
+            
+                    <div class="media">
+                   <div class="media-left">
+               <a href="#"><img class="media-object" src="http://i.imgur.com/zY5rW82t.jpg" style="height:35px;width:35px;"alt="..."></a>
+             </div>
+               <div class="media-body">
+                 <p class="comment"> <span><a href="#">Mohit </a></span> nice lines </p>
+                   
+                   <div><small>
+                       <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+                       </small>
+                   </div>
+               </div>
+                    
+     <!--------------------------------------------------------------------------------------------->  
+               <div class="media">
+              <div class="media-left">
+                 
+               <a href="#"><img class="media-object" src="http://i.imgur.com/vRQgCJ8t.jpg" style="height:32px;width:32px;"alt="..."></a>
+               </div>
+               <div class="media-body">
+                 <p class="comment"> <span><a href="#">Suhani Bansal </a></span>very true </p>
+                   <div><small>
+                       <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+                       </small>
+                   </div>
+
+                  </div>
+                            <input placeholder="Write a comment..." style="width:100%;margin-top:15px;">
+               </div>
+           </div>
+            
+                        
+            </div>
+            
+            
+       </div>             
+            
+ <!-------------------------third post--------------------------------------------------->          
+            
+                   
+        <div class="panel panel-default">
+       <div class="panel-heading">
+       <h3 class="panel-title">
+           
+        <a href="#"><img src="http://i.imgur.com/aVn5jhI.jpg" style="height:32px;width:32px;margin-right:10px;" alt="...">Arun yadav</a></h3>
+           
+       </div>
+       <div class="panel-body">
+       <div>
+        <div class="image-post">
+        <img src="http://www.folomojo.com/wp-content/uploads/2015/02/16/104.jpg" class="img-responsive" alt="Responsive image">
+       </div>   
+        </div>
+        <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+        <span> <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></span>
+         <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>share</span>
+       </div>
+       </div>
+       <div class="panel-footer">
+            
+                               <div class="media">
+                   <div class="media-left">
+               <a href="#"><img class="media-object" src="http://i.imgur.com/vRQgCJ8t.jpg" style="height:32px;width:32px;"alt="..."></a>
+             </div>
+               <div class="media-body">
+                 <p class="comment"> <span><a href="#">Suhani Bansal </a></span>hahahahaha.....right </p>
+                   
+                   <div><small>
+                       <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+                       </small>
+                   </div>
+               </div>
+                    
+     <!--------------------------------------------------------------------------------------------->  
+               <div class="media">
+              <div class="media-left">
+                 
+               <a href="#"><img class="media-object" src="http://i.imgur.com/mwNCT2f.jpg" style="height:35px;width:35px" alt="..."></a>
+               </div>
+               <div class="media-body">
+                 <p class="comment"> <span><a href="#">Dolly </a></span> Exectly.... </p>
+                   <div><small>
+                       <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+                       </small>
+                   </div>
+
+                  </div>
+                            <input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;">
+               </div>
+           </div>
+            
+            </div>    
+        </div> 
+            
+<!-------------------------------------forth post----------------------------------------------------------->         
+            
+            
+           
+        <div class="panel panel-default">
+       <div class="panel-heading">
+       <h3 class="panel-title">
+        
+        <a href="#"><img src="http://i.imgur.com/weQ6ys3.jpg" style="height:32px;width:32px;margin-right:10px;" alt="...">Sunita</a></h3>
+           
+       </div>
+       <div class="panel-body">
+         <div class="image-post">
+        <img src="http://i.imgur.com/sm5Akhc.jpg?1" class="img-responsive" alt="Responsive image">
+       </div>
+           
+           
+        <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+        <span> <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></span>
+            <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>share</span>
+       </div>
+       </div>
+       <div class="panel-footer">
+        
+            
+                    <div class="media">
+                   <div class="media-left">
+               <a href="#"><img class="media-object" src="http://i.imgur.com/zY5rW82t.jpg" style="height:35px;width:35px;"alt="..."></a>
+             </div>
+               <div class="media-body">
+                 <p class="comment"> <span><a href="#">Mohit </a></span> nice pic</p>
+                   
+                   <div><small>
+                       <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+                       </small>
+                   </div>
+               </div>
+                    
+     <!--------------------------------------------------------------------------------------------->  
+               <div class="media">
+              <div class="media-left">
+                 
+               <a href="#"><img class="media-object" src="http://i.imgur.com/vRQgCJ8t.jpg" style="height:32px;width:32px;"alt="..."></a>
+               </div>
+               <div class="media-body">
+                 <p class="comment"> <span><a href="#">Suhani Bansal </a></span>awesome pic.. </p>
+                   <div><small>
+                       <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+                       </small>
+                   </div>
+
+                  </div>
+                            <input placeholder="Write a comment..." style="width:100%;margin-top:15px;">
+               </div>
+           </div>
+            
+                        
+            </div>
+            
+            
+       </div>            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+  <!-------------------------fifth post--------------------------------------------------->          
+                         
+        <div class="panel panel-default">
+       <div class="panel-heading">
+       <h3 class="panel-title">
+           
+           <a href="#"><img src="http://i.imgur.com/O8mRUrV.jpg" style="height:32px;width:32px;margin-right:10px;" alt="...">Minakashi</a></h3>
+       </div>
+       <div class="panel-body">
+        <div class="vedio-post">              
+       <div class="embed-responsive embed-responsive-4by3">   
+       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q_nho6x3SVc?ecver=1"></iframe>
+        </div>   
+       </div>
+        <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+        <span> <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></span>
+        <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>share</span>
+       </div>
+       </div>
+       <div class="panel-footer">
+            
+           
+                    <div class="media">
+                   <div class="media-left">
+               <a href="#"><img class="media-object" src="http://i.imgur.com/mwNCT2f.jpg" style="height:35px;width:35px" alt="..."></a>
+             </div>
+               <div class="media-body">
+                 <p class="comment"> <span><a href="#">Tarun </a></span> nic vedio.. </p>
+                   
+                   <div><small>
+                       <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+                       </small>
+                   </div>
+               </div>
+                    
+     <!--------------------------------------------------------------------------------------------->  
+               <div class="media">
+              <div class="media-left">
+                 
+               <a href="#"><img class="media-object" src="http://i.imgur.com/vRQgCJ8t.jpg" style="height:35px;width:35px"alt="..."></a>
+               </div>
+               <div class="media-body">
+                 <p class="comment"> <span><a href="#">Suhani Bansal</a></span> Amazing vedio.. </p>
+                   <div><small>
+                       <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+                       </small>
+                   </div>
+
+                  </div>
+                            <input placeholder="Write a comment..." style="width: 100%;margin-top: 15p;">
+                                                                                                              
+                   </div>
+                        </div>
+           </div>
+            </div>
+            
+            
+            
+            
+<!------------------------sixth  post---------------------------------------------------------->
+            
+            
+                    
+                   
+        <div class="panel panel-default">
+       <div class="panel-heading">
+       <h3 class="panel-title">
+           
+        <a href="#"><img src="http://i.imgur.com/weQ6ys3t.jpg" style="height:32px;width:32px;margin-right:10px;" alt="...">Sunita </a></h3>
+           
+       </div>
+       <div class="panel-body">
+       <div>
+        <div class="image-post">
+        
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        
+        
+  <!-- Indicators -->
+        
+        
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+        
+        
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://i.imgur.com/TLFeShe.png?1" alt="...">
+     <div class="carousel-caption">
+        <h3>My BirthDay Cake</h3>
+        
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="http://i.imgur.com/KyRx8tR.png?1" alt="...">
+     
+    </div>
+
+    <div class="item">
+      <img src="http://i.imgur.com/gB2uhCh.png?1" alt="...">
+     
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+        
+        
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+            
+            
+            
+       </div>   
+        </div>
+        <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+        <span> <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></span>
+         <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>share</span>
+       </div>
+       </div>
+       <div class="panel-footer">
+            
+                               <div class="media">
+                   <div class="media-left">
+               <a href="#"><img class="media-object" src="http://i.imgur.com/vRQgCJ8t.jpg" style="height:32px;width:32px;"alt="..."></a>
+             </div>
+               <div class="media-body">
+                 <p class="comment"> <span><a href="#">Suhani Bansal </a></span>happy birth sunita.. </p>
+                   
+                   <div><small>
+                       <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+                       </small>
+                   </div>
+               </div>
+                    
+     <!--------------------------------------------------------------------------------------------->  
+               <div class="media">
+              <div class="media-left">
+                 
+               <a href="#"><img class="media-object" src="http://i.imgur.com/mwNCT2f.jpg" style="height:35px;width:35px" alt="..."></a>
+               </div>
+               <div class="media-body">
+                 <p class="comment"> <span><a href="#">Dolly </a></span>very enjoyable trip...</p>
+                   <div><small>
+                       <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+                       </small>
+                   </div>
+
+                  </div>
+                            <input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;">
+               </div>
+           </div>
+            
+            </div>    
+        </div>
+            
+            
+            </div>
+              </div>
+        
+  <!----------------------------------------------------------------------------------------------->      
+  <div class=" col-md-2">
+      
+             <div class="panel panel-default">
+             <div class="panel-heading" style="background-color: # #e9ebee;" >
+              <div>
+               <h class="panel-title">
+               Today's Payal have a birthday
+              </h>
+            </div>
+            
+            </div>   
+      
+      </div>
+      
+      
+      
+      
+      
+      
+           <div id="sidebar">
+            
+     <ul class="nav nav-tabs" role="tablist">
+                   
+         <li role="presentation" class="active"><a href="#top" aria-controls="home" role="tab" data-toggle="tab">
+              <div><i class="fa fa-bank"></i></div></a></li>
+                   
+        <li role="presentation"><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-newspaper-o"></i></a></li>
+                   
+        <li role="presentation"><a href="#sports" style="padding-right:12px;" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-soccer-ball-o"></i></a></li>
+                   
+         <li role="presentation"><a href="#entertainment" aria-controls="entertainment" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-film" aria-hidden="true"></span></a></li>          
+                   
+    </ul>
+
+  <!---------------------------------------- Tab panes ------------------------------------------------------>
+  
+  <div class="tab-content" >
+                    <div role="tabpanel" class="tab-pane active" id="top">
+                        <div class="list-group">
+                            <a href="#" style="background-color:#e9ebee;border-color:#e9ebee;"class="list-group-item active" id="side">
+                  
+                  <h4 class="list-group-item-heading" style="color:black;">Top Trends</h4>
+                  <div class="paragraph" >
+                    <p class="list-group-item-text" style="color:black;" >
+                     Industries<br>
+                     Gupta’s firm has spent more than £500 million on acquisitions in Britain since the start of 2017....      
+                    </p><br>
+                  
+               
+                     <p  class="list-group-item-text" style="color:black;">
+                         London<br>
+                       Five acid attacks on London streets within 90 minutes: polic</p><br>
+                            
+                  
+                    <p class="list-group-item-text" style="color:black;">
+                         IUCAA<br>
+                        Indian scientist discover new supercluster of galaxies,call it Saraswati</p>
+                      </a>
+                                </div>
+            </div>
+            </div>
+                <div role="tabpanel" class="tab-pane" id="politics"><div class="list-group">
+          <a href="#"style="background-color:#e9ebee;border-color:#e9ebee;" class="list-group-item active">
+            <h4 class="list-group-item-heading"style="color:black;">Politics News</h4>
+            <p class="list-group-item-text"style="color:black;">
+              Sonia Gandhi<br>
+              Sonia Tries to End BiharCrisis,
+              speaks to nitish and Lalu</p><br>
+              
+              <p class="list-group-item-text"style="color:black;">
+                  Liu Xiaobo<br>
+                  Nobel larreate liu Xiaobo'lead astray by west': Chinese media</p><br>
+              
+               <p class="list-group-item-text"style="color:black;">
+                   Bastille Day<br>
+                   Trump, Macron attend Bastille Day military parade.</p><br>
+              
+                  <p class="list-group-item-text"style="color:black;">
+                   Rajnath singh<br>
+                      PM modi's Top minister to Brief. all parties today on standoff with china.</p><br>
+              
+          </a>
+        </div>
+       </div>
+
+              <div role="tabpanel" class="tab-pane" id="sports"><div class="list-group">
+                  <a href="#"style="background-color:#e9ebee;border-color:#e9ebee;" class="list-group-item active"> 
+              <h4 class="list-group-item-heading"style="color:black;">Sports News</h4>
+              
+                     <p class="list-group-item-text" style="color:black;">
+                          
+                      Wimbledon<br>
+                      wimbledon-friday schedule:querrey-cilic and federe berdych </p><br>
+              
+              
+              
+                      <p class="list-group-item-text" style="color:black;"> 
+                        Tour de France<br>
+                        fabio aru takes the lead as chris froome falters in the tour de france</p><br>
+              
+    
+              
+         </a>
+         
+        </div></div>
+
+               <div role="tabpanel" class="tab-pane" id="entertainment"><div class="list-group">
+          <a href="#" style="background-color:#e9ebee;border-color:#e9ebee;"class="list-group-item active">
+            <h4 class="list-group-item-heading" style="color:black;">Entertainment</h4>
+            <p class="list-group-item-text"style="color:black;">
+                Beyonce<br>
+                beyonce shares first photo of twins sir carter and Rumi</p><br>
+              
+              
+               <p class="list-group-item-text"style="color:black;">
+                Ranveer Singh<br>
+                Ranveer singh has left Priynka chopra and Amitabh Bachchan.</p><br>
+              
+          </a>
+        </div></div>
+      
+        </div>
+<!--------------------------------- sidebar third panel------------------------------------------------------------->  
+
+      
+             <div class="panel panel-default">
+             <div class="panel-heading" style="background-color: # #e9ebee;" >
+              <div>
+               <h class="panel-title">
+               <a href="pages">Suggested Pages</a>
+              </h>
+            </div>
+            </div>
+                 
+            
+         <div class="panel-body">
+        
+           
+        <div class="image-post">
+        
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        
+        
+  <!-- Indicators -->
+        
+        
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+        
+        
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://i.imgur.com/HggRsiS.jpg" alt="...">
+    
+    </div>
+
+    <div class="item">
+      <img src="http://i.imgur.com/LeDGCvl.jpg?1" alt="...">
+     
+    </div>
+
+    <div class="item">
+      <img src="http://i.imgur.com/SZtNtSo.jpg" alt="...">
+     
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+        
+        
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+            </div></div>
+            
+        <div class="panel-footer">    
+            
+            
+        <h6 class="text"><a href="text">Rahul gosain and 3 other<br></a>like this page</h6>   
+            
+        <button type="button" class="btn"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like page</button>    
+            
+            </div>   
+       </div>   
+          
+      
+                     
+             
+       </div>    
+                 
+            
+               </div>
+      
+         
+   
+               
+               
+<!----------------------------------------------------sidebar 2---------------------------------------------------------------------->
+               
+
+             
+               
+               
+               
+      </div>          
+               
+        
+              
+   
+               
+      <div class="col-md-2">
+              <div id="right">
+                  
+    <div class="panel panel-primary" style="background-color: #e9ebee;border-color: #e9ebee;">
+    
+
+               
+              <ul class="nav nav-pills nav-stacked">    
+      
+         <li role="presentation"><a href="#"><img src="http://i.imgur.com/mplB9Na.jpg"style="height:32px;width:32px;"> Abhishek gill<img style="height:11px;margin-left:35px;margin-bottom:1px;border-radius:100px;" src="http://i.imgur.com/pOcPLjet.png"></a>
+             </li>
+         
+                          
+       <li role="presentation"><a href="#"><img src="http://i.imgur.com/khhoHWG.jpg"style="height:32px;width:32px;margin:0px;"> Piyush bhargava<img style="height:11px;margin-left:10px;margin-bottom:1px;border-radius:100px;" src="http://i.imgur.com/pOcPLjet.png"></a></li>
+             
+       
+            <li role="presentation"><a href="#"><img src="http://i.imgur.com/jolpLwY.jpg"style="height:32px;width:32px;margin:0px;"> Vikas Thakur<img style="height:11px;margin-left:34px;margin-bottom:1px;border-radius:100px;" src="http://i.imgur.com/pOcPLjet.png"></a></li>
+            <li role="presentation"><a href="#"><img src="http://i.imgur.com/rXdRejb.jpg"style="hheight:32px;width:32px;margin:0px;">Rahul gosain<img style="height:11px;margin-left:36px;margin-bottom:1px;border-radius:100px;" src="http://i.imgur.com/pOcPLjet.png"></a></li>
+             <li role="presentation"><a href="#"><img src="http://i.imgur.com/n2wEbCU.jpg"style="height:32px;width:32px;margin:0px;">Divya<img style="height:11px;margin-left:81px;margin-bottom:1px;border-radius:100px;" src="http://i.imgur.com/pOcPLjet.png"> </a></li>
+        
+         
+       
+            <li role="presentation"><a href="#"><img src="http://i.imgur.com/gnbk5kZ.jpg"style="height:32px;width:32px;margin:0px;">Rajat kumar<img style="height:11px;margin-left:38px;margin-bottom:1px;border-radius:100px;" src="http://i.imgur.com/pOcPLjet.png"></a></li>          
+            <li role="presentation"><a href="#"><img src="http://i.imgur.com/dpYjIRt.jpg"style="height:32px;width:32px;margin:0px;">dolly<img style="height:11px;margin-left:85px;margin-bottom:1px;border-radius:100px;" src="http://i.imgur.com/pOcPLjet.png"></a></li>
+           
+            <li role="presentation"><a href="#"><img src="http://i.imgur.com/mwNCT2f.jpg"style="height:32px;width:32px;margin:0px;">Payal<img style="height:11px;margin-left:80px;margin-bottom:1px;border-radius:100px;" src="http://i.imgur.com/pOcPLjet.png"></a></li>
+                  </ul>
+            
+        </div>
+        </div>
+      
+              </div>
+    
+    
+    
+    
+    
+    </div>
+    </div>
+      
+            
+            
+            
+            
+            
+          
+
+  
+<!---------------------------------------START FOOTER----------------------------------------------------------------------->  
+      
+  <footer id="footer">
+      
+      <div class="pull-right">
+      <ul class="nav nav-pills">
+       <li role="presentation "><a href="# ">About Us</a></li>
+      <li role="presentation "><a href="# ">Home</a></li>
+      <li role=" presentation "><a href="# ">Privacy</a></li>
+      <li role="presentation "><a href="# ">Advertising</a></li>
+      <li role="presentation "><a href="# ">Cookies</a></li>
+      <li role="presentation "><a href="# ">Ad Choices</a></li>
+      </ul>
+      </div>
+      
+ </footer>
+<!------------------------------------FOOTER ENDS-------------------------------------------------------------------------->
+  
+ <!------------------------ jQuery (necessary for Bootstrap's JavaScript plugins) ---------------------------------->
+      
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+       <link href="main.css" rel="stylesheet">
+      
+      
+      
+      
+
+     
+  </body>
+</html>
